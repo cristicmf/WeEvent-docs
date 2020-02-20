@@ -131,7 +131,7 @@ htmlhelp_basename = 'WeEventdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
-latex_engine = 'xelatex'
+latex_engine = 'pdflatex'
 latex_use_xindy = False
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -166,8 +166,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WeEvent.tex', 'WeEvent Documentation',
-     'cristic', 'manual',True),
+    (master_doc, 'WeEvent.tex', u'WeEvent Documentation',
+     u'cristic', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -189,8 +189,6 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_domain_indices = True
-
-
 
 # -- Options for manual page output ------------------------------------------
 
